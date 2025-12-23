@@ -1,3 +1,3 @@
 module github.com/ardista1702/data-structure/linkedlist
 
-go 1.23
+go 1.24

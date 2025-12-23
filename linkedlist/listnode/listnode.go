@@ -15,16 +15,6 @@ func NewList() *List {
 	return &List{Head: nil}
 }
 
-/*
-
-list feture:
-	-to array
-	-append
-	-prepend
-	-delete
-	-size
-*/
-
 func (l *List) ToArray() []any {
 	var result []any
 	current := l.Head
